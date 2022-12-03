@@ -1,0 +1,34 @@
+/*
+ * Empty Stylesheet file.
+ */
+* {
+/*	-fx-font-smoothing-type: lcd;*/
+}
+
+.button {
+	-fx-border-radius: 0 0 0 0;
+	-fx-background-radius: 0 0 0 0;
+	-fx-font: 11px "Arial";
+	-fx-padding: 3 12 3 12;
+	-fx-alignment: center;
+}
+
+#title {
+	-fx-font: 14px "Arial";
+	-fx-font-weight: bold;
+}
+
+#body {
+	-fx-font: 11px "Arial";
+	-fx-font-weight: normal;
+}
+
+#license {
+	-fx-font: 11px "Arial";
+	-fx-font-weight: normal;
+	-fx-background-color: transparent, white, transparent, white;
+}
+#license .content {
+	-fx-background-color: transparent, white, transparent, white;
+	-fx-padding: 0;
+}

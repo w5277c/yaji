@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.pp.w5277c.yaji.mvc.controllers.ConfigureController">
+   <children>
+      <BorderPane HBox.hgrow="ALWAYS">
+         <bottom>
+            <HBox alignment="TOP_RIGHT" spacing="4.0" style="-fx-border-color: #ffffff; -fx-border-width: 1 0 0 0; -fx-background-color: #e0e0e0;" BorderPane.alignment="CENTER_RIGHT">
+               <children>
+                  <Button disable="true" mnemonicParsing="false" text="&lt; Назад" />
+                  <Button fx:id="next_b" defaultButton="true" mnemonicParsing="false" onAction="#next" text="Далее &gt;" textAlignment="CENTER" />
+                  <Button fx:id="exit_b" cancelButton="true" mnemonicParsing="false" onAction="#exit" text="Отмена">
+                     <HBox.margin>
+                        <Insets left="8.0" />
+                     </HBox.margin></Button>
+               </children>
+               <padding>
+                  <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+               </padding>
+            </HBox>
+         </bottom>
+         <left>
+            <HBox style="-fx-border-color: #808080; -fx-border-width: 0 0 1 0;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../resources/panel.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </left>
+         <center>
+            <VBox style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox maxWidth="1.7976931348623157E308" style="-fx-border-color: #808080; -fx-border-width: 0 0 1 0;">
+                     <children>
+                        <Label id="title" fx:id="title_l" text="Выбор каталога установки и компонент" textFill="#242639" wrapText="true">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="4.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <Label id="body" fx:id="body_l" alignment="TOP_LEFT" maxWidth="1.7976931348623157E308" text="Выберите каталог, в который хотите установить приложение, выберите необходимые копоненты и нажмите кнопку 'Далее''" wrapText="true">
+                     <font>
+                        <Font name="Arial" size="11.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox maxWidth="1.7976931348623157E308" spacing="10.0">
+                     <children>
+                        <TextField id="body" fx:id="path_tf" editable="false" maxWidth="1.7976931348623157E308" HBox.hgrow="ALWAYS" />
+                        <Button fx:id="path_b" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#path_action" text="Обзор..." />
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox maxWidth="1.7976931348623157E308">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" top="8.0" />
+                     </VBox.margin>
+                     <children>
+                        <Label id="body" prefWidth="260.0" text="Необходимое место на диске:">
+                           <font>
+                              <Font size="11.0" />
+                           </font></Label>
+                        <Label id="body" fx:id="need_space_l" text="---" />
+                     </children>
+                  </HBox>
+                  <HBox layoutX="20.0" layoutY="156.0" maxWidth="1.7976931348623157E308">
+                     <children>
+                        <Label id="body" prefWidth="260.0" text="Свободное место на диске:">
+                           <font>
+                              <Font size="11.0" />
+                           </font></Label>
+                        <Label id="body" fx:id="have_space_l" text="---" />
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" top="3.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <VBox fx:id="components" maxWidth="1.7976931348623157E308" spacing="4.0">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-border-color: #808080; -fx-border-width: 0 0 1 0;" VBox.vgrow="ALWAYS" />
+                  <CheckBox fx:id="autostart_shortcut_cb" alignment="TOP_LEFT" layoutX="137.0" layoutY="321.0" mnemonicParsing="false" text="Создать ярлыки в автозапуске">
+                     <VBox.margin>
+                        <Insets left="10.0" top="3.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="desktop_shortcut_cb" alignment="TOP_LEFT" mnemonicParsing="false" selected="true" text="Создать ярлыки на рабочем столе">
+                     <VBox.margin>
+                        <Insets left="10.0" top="3.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </CheckBox>
+                  <CheckBox fx:id="programs_shortcut_cb" alignment="TOP_LEFT" contentDisplay="RIGHT" mnemonicParsing="false" selected="true" text="Создать ярлыки в программах">
+                     <padding>
+                        <Insets bottom="3.0" right="10.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets left="10.0" top="3.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </CheckBox>
+                  <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="0.0" style="-fx-border-color: #808080; -fx-border-width: 0 0 1 0;" />
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</HBox>

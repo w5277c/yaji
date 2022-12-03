@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group/>
+        <group name="DEXP"/>
+        <group name="5277.ru">
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/Main.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/Config.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/controllers/LicenseController.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/views/Configure.fxml</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/views/Install.fxml</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/controllers/Controller.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/controllers/InstallController.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/components/Component.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/items/ComponentItem.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/Utils.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/components/LaunchComponent.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/controllers/WelcomeController.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/InstRecord.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/components/UninstallComponent.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/dst/GNULinux.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/dst/Windows.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/controllers/UninstallController.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/views/Fail.fxml</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/controllers/SuccessController.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/views/Welcome.fxml</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/dst/OS.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/enums/EMode.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/controllers/ConfigureController.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/controllers/FailController.java</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/views/License.fxml</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/views/Uninstall.fxml</file>
+            <file>file:/media/kostas/repos/w5277c/yaji/Yaji/src/ru/pp/w5277c/yaji/mvc/views/Success.fxml</file>
+        </group>
+    </open-files>
+</project-private>
