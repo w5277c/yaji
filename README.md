@@ -1,0 +1,2 @@
+# yaji
+Yet another jinstaller
