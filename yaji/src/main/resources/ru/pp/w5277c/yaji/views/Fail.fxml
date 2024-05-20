@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.pp.w5277c.yaji.mvc.controllers.FailController">
+   <center>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <Label id="title" text="Сбой ассистента" textFill="#242639" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin>
+            </Label>
+            <Label id="body" fx:id="body_l" alignment="TOP_LEFT" maxWidth="1.7976931348623157E308" text="Установка выполнена с ошибками.&#10;&#10;Для выхода из программы установки, нажмите кнопку «Готово»" wrapText="true">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets bottom="6.0" left="28.0" right="28.0" top="8.0" />
+         </padding>
+      </VBox>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" focusTraversable="true" spacing="4.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane maxWidth="1.7976931348623157E308" HBox.hgrow="ALWAYS" />
+            <Button fx:id="exit_b" cancelButton="true" defaultButton="true" mnemonicParsing="false" onAction="#exit" text="Готово">
+               <HBox.margin>
+                  <Insets left="8.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="16.0" left="14.0" right="14.0" top="16.0" />
+         </padding>
+      </HBox>
+   </bottom>
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="50.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="32.0" fitWidth="143.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon_48.png" />
+               </image>
+            </ImageView>
+            <Label id="title" fx:id="appname_label" text="APPNAME" />
+         </children>
+         <padding>
+            <Insets left="28.0" />
+         </padding>
+      </HBox>
+   </top>
+</BorderPane>

@@ -1,0 +1,49 @@
+
+.button {
+	-fx-font-size: 13px;
+	-fx-pref-height: 28px;
+	-fx-min-height: 28px;
+	-fx-pref-width: 100px;
+	-fx-max-width: 100px;
+	-fx-padding: 0px;
+}
+
+#uninstall_button {
+	-fx-pref-width: 180px;
+	-fx-max-width: 180px;
+}
+
+#title {
+	-fx-font-size: 21px;
+	-fx-alignment: CENTER_LEFT;
+}
+
+#body {
+	-fx-font-size: 13px;
+	-fx-alignment: CENTER_LEFT;
+	-fx-wrap-text: true;
+}
+
+#percents {
+	-fx-font-size: 13px;
+	-fx-alignment: CENTER;
+}
+
+.text-area {
+	-fx-wrap-text: true;
+	-fx-font-size: 14px;
+	-fx-padding: 1px;
+}
+
+.check-box {
+	-fx-font-size: 13px;
+	-fx-alignment: CENTER_LEFT;
+}
+
+.text-field {
+	-fx-font-size: 13px;
+	-fx-alignment: CENTER_LEFT;
+	-fx-pref-height: 29px;
+	-fx-min-height: 29px;
+	-fx-padding: 0px 8px 0px 8px;
+}

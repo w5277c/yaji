@@ -1,0 +1,22 @@
+.dialog{
+	-fx-min-width: 420 px;
+	-fx-min-height: 108 px;
+	-fx-font-size: 13px;
+	-fx-alignment: CENTER_LEFT;
+	-fx-font-weight: normal;
+}
+
+.button{
+	-fx-font-size: 13px;
+	-fx-pref-height: 28px;
+	-fx-min-height: 28px;
+	-fx-pref-width: 100px;
+	-fx-max-width: 100px;
+	-fx-padding: 0px;
+}
+
+.dialog .label{
+	-fx-font-size: 13px;
+	-fx-alignment: CENTER_LEFT;
+	-fx-font-weight: normal;
+}
